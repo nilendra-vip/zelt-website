@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zelt Website Clone</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/loader.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Custom cursor -->
+    <div class="cursor"></div>
+    <!-- ================ -->
+
+    <!-- Navbar  -->
+    <div class="navbar">
+        <div class="nav-item"><span id="nav-item1">Zelt</span></div>
+        <div class="nav-item"><span id="nav-item2">Product</span></div>
+        <div class="nav-item"><span id="nav-item3">Pricing</span></div>
+        <div class="nav-item"><span id="nav-item4">Resources</span></div>
+        <div class="nav-item"><span id="nav-item5">Login</span></div>
+        <div class="nav-item"><span id="nav-item6">Get Started</span></div>
+    </div>
+    <!-- ========================= -->
+
+    <!-- Main Body -->
+    <div id="main">
+        <div class="page" id="page1">
+            <canvas></canvas>
+            <div class="p1-overlay-1 d-flex">
+                <div class="text-box-1">
+                    <h1>Give your people <br> a platform</h1>
+                    <h5>Create can-do culture with a modern <br> HR platform built for growth</h5>
+                </div>
+            </div>
+            <div class="p1-overlay-2 d-flex">
+                <div class="text-box-2">
+                    <h1>Not another <br> HR tool</h1>
+                    <h5>Now you can run people operations on a scalable <br> backbone, so you can stay lean and keep focus.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="page2">
+            <div class="p2-text-box d-flex">
+                <h1 class="split1">Run HR, IT & Finance <br> in one place</h1>
+                <h5 class="split1">to automate workflows, enable self-service <br> and improve employee experience.</h5>
+            </div>  
+            <div class="p2-svg-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e4e0dd" fill-opacity="1" d="M0,32L13.3,32C26.7,32,53,32,80,69.3C106.7,107,133,181,160,192C186.7,203,213,149,240,144C266.7,139,293,181,320,202.7C346.7,224,373,224,400,202.7C426.7,181,453,139,480,106.7C506.7,75,533,53,560,42.7C586.7,32,613,32,640,48C666.7,64,693,96,720,138.7C746.7,181,773,235,800,218.7C826.7,203,853,117,880,106.7C906.7,96,933,160,960,181.3C986.7,203,1013,181,1040,170.7C1066.7,160,1093,160,1120,165.3C1146.7,171,1173,181,1200,170.7C1226.7,160,1253,128,1280,112C1306.7,96,1333,96,1360,112C1386.7,128,1413,160,1427,176L1440,192L1440,0L1426.7,0C1413.3,0,1387,0,1360,0C1333.3,0,1307,0,1280,0C1253.3,0,1227,0,1200,0C1173.3,0,1147,0,1120,0C1093.3,0,1067,0,1040,0C1013.3,0,987,0,960,0C933.3,0,907,0,880,0C853.3,0,827,0,800,0C773.3,0,747,0,720,0C693.3,0,667,0,640,0C613.3,0,587,0,560,0C533.3,0,507,0,480,0C453.3,0,427,0,400,0C373.3,0,347,0,320,0C293.3,0,267,0,240,0C213.3,0,187,0,160,0C133.3,0,107,0,80,0C53.3,0,27,0,13,0L0,0Z"></path></svg>
+            </div>
+        </div>
+        <div class="page" id="page3">
+            <div class="p3-text-box d-flex">
+                <p class="split1">Powering UK’s next unicorns backed by</p>
+                <div class="moving-item d-flex">
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-5.svg" alt=""></div>
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-4.svg" alt=""></div>
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-3.svg" alt=""></div>
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-2.svg" alt=""></div>
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-1.svg" alt=""></div>
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-7.svg" alt=""></div>
+                    <div class="item"><img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-6.svg" alt=""></div>
+                </div>
+            </div>
+            
+        </div>        
+        <div class="page" id="page4">
+            <div class="p4-heading d-flex">
+                <h1 class="split1">Product Overview</h1>
+            </div>
+            <div class="p4-box">
+                <div class="p4-box-left">
+                    <div class="categories userBox_active" data-target="#p4People"><span>people</span></div>
+                    <div class="categories" data-target="#p4Payroll"><span>Payroll</span></div>
+                    <div class="categories" data-target="#p4Benefits"><span>Benefits</span></div>
+                    <div class="categories" data-target="#p4Payments"><span>Payments</span></div>
+                    <div class="categories" data-target="#p4Timeoff"><span>Time Off</span></div>
+                    <div class="categories" data-target="#p4Apps"><span>Apps</span></div>
+                    <div class="categories" data-target="#p4Devices"><span>Devices</span></div>
+                </div>
+                <div class="p4-box-right">
+                    <div class="p4-left-right-box userBox_active" data-content id="p4People">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-1.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>People</h3>
+                            <p>A next generation HRIS that forms the core of your people stack and programmatically drives your people services, from time off to access management, payroll to benefits. Minimise time spent on admin using automation and employee self-service.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                    <div class="p4-left-right-box" data-content id="p4Payroll">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-2.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>Payroll</h3>
+                            <p>Automate payroll and execute salary payments in a few clicks. Get real time insights into headcount costs and reduce payroll mistakes by keeping HR and payroll data in one place.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                    <div class="p4-left-right-box" data-content id="p4Benefits">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-3.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>Benefits</h3>
+                            <p>Manage pension and healthcare centrally. Automate the busy work of adding and removing employees. Give your team better visibility into their benefits and empower them to make choices themselves without having to worry about reconciling payroll deductions.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                    <div class="p4-left-right-box" data-content id="p4Payments">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-4.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>Payments</h3>
+                            <p>After approving payroll and contractor invoices, make local salary and global contractor payments in one go with just a few clicks.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                    <div class="p4-left-right-box" data-content id="p4Timeoff">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-5.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>Time Off</h3>
+                            <p>Request, approve and keep track of time seamlessly. Whether it's holiday, sick days, work from home, parental leave or unpaid holiday. Create custom policies that work for your team. Get requests directly in Slack or mobile app. No need to wait for the approver to get back from their holiday.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                    <div class="p4-left-right-box" data-content id="p4Apps">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-6.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>Apps</h3>
+                            <p>Manage access to your business apps centrally. Protect your data and save time by managing employee accounts automatically when on and offboarding employees. Spot inactive users and monitor access from outside of your organisation.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                    <div class="p4-left-right-box" data-content id="p4Devices">
+                        <div class="p4-right-photo d-flex">
+                            <img src="./images/p4-7.jpg" alt="">
+                        </div>
+                        <div class="p4-right-dets">
+                            <h3>Devices</h3>
+                            <p>Embed device as a service directly into your people processes. Equip your team with a few clicks and stop wasting time on shipping, set up, collections, storage and support. Remotely configure employee computers and apply security policies to protect company IP. The better alternative to complicated MDM tools and expensive outsourcing.</p>
+                            <button>Find out more </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="page" id="page5">
+            <div class="p5-heading d-flex">
+                <h1 class="split1">Why Zelt ?</h1>
+            </div>
+        </div> 
+        <div class="page" id="page6">
+            <div class="p678-left p678-text d-flex">
+                <h4>People-centric</h4>
+                <p>Create a better employee experience by building your people operations systems and processes around your people. With self-service and seamless approvals, your team does not have to jump through hoops to get the resources they need.</p>
+                <div class="overlay">
+                    <svg style="scale: 1.2;" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#E4E0DD" d="M48.6,-44.6C55.6,-30,48.8,-10.2,45.3,12.5C41.9,35.2,41.7,60.7,29.7,69.5C17.8,78.2,-6,70.1,-25.2,58.5C-44.3,46.9,-58.8,31.8,-62.6,14.4C-66.5,-3,-59.8,-22.6,-47.6,-38.5C-35.4,-54.3,-17.7,-66.4,1.6,-67.6C20.8,-68.8,41.6,-59.3,48.6,-44.6Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="p678-right d-flex">
+                <video src="./videos/p5-1.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+        <div class="page" id="page7">
+            <div class="p678-left d-flex">
+                <video src="./videos/p5-2.mp4" autoplay muted loop></video>
+            </div>
+            <div class="p678-right p678-text d-flex">
+                <h4>Enabling</h4>
+                <p>People operations is about providing your team with the right tools and support to get the job done. Zelt makes pay, benefits, software, hardware, time off and reviews available in a single place, as simple as drag and drop. So your team can focus on their job rather than learning internal processes.</p>
+                <div class="overlay">
+                    <svg style="scale: 1;transform: rotate(180deg);" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#E4E0DD" d="M34.9,-49C49.2,-37.6,67.5,-32.7,77.6,-20.7C87.7,-8.7,89.6,10.5,81.6,23.9C73.6,37.2,55.8,44.7,40.5,55.1C25.3,65.4,12.6,78.7,-0.8,79.9C-14.3,81,-28.6,70.1,-43.3,59.5C-58,48.9,-73,38.8,-75.6,25.7C-78.2,12.7,-68.4,-3.2,-57.4,-13C-46.4,-22.8,-34.2,-26.5,-24.4,-39.3C-14.7,-52.1,-7.3,-74,1.5,-76C10.3,-78.1,20.6,-60.3,34.9,-49Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="page8">
+            <div class="p678-left p678-text d-flex">
+                <h4>Automated</h4>
+                <p>Automate the busy work in your day-to-day operations so people can get home on time more often. With Zelt you can save time onboarding and offboarding, entering employee information by hand, buying and shipping laptops, creating accounts in work apps, and much more.</p>
+                <div class="overlay">
+                    <svg style="scale: 1.2;" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#E4E0DD" d="M41.2,-64.7C47.5,-52.1,42.7,-32.2,44.2,-16.9C45.8,-1.5,53.8,9.3,50.7,15.7C47.6,22.2,33.4,24.3,23.1,32.1C12.8,39.9,6.4,53.5,-4.5,59.7C-15.4,65.9,-30.7,64.7,-42.6,57.3C-54.4,50,-62.7,36.5,-68.3,21.6C-73.9,6.7,-76.8,-9.6,-69.3,-19.3C-61.7,-29.1,-43.7,-32.3,-30.5,-42.6C-17.2,-53,-8.6,-70.5,4.4,-76.6C17.4,-82.7,34.9,-77.4,41.2,-64.7Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </div>
+            <div class="p678-right d-flex">
+                <video src="./videos/p5-3.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+        <div class="page" id="page85">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e4e0dd" fill-opacity="1" d="M0,32L13.3,32C26.7,32,53,32,80,69.3C106.7,107,133,181,160,192C186.7,203,213,149,240,144C266.7,139,293,181,320,202.7C346.7,224,373,224,400,202.7C426.7,181,453,139,480,106.7C506.7,75,533,53,560,42.7C586.7,32,613,32,640,48C666.7,64,693,96,720,138.7C746.7,181,773,235,800,218.7C826.7,203,853,117,880,106.7C906.7,96,933,160,960,181.3C986.7,203,1013,181,1040,170.7C1066.7,160,1093,160,1120,165.3C1146.7,171,1173,181,1200,170.7C1226.7,160,1253,128,1280,112C1306.7,96,1333,96,1360,112C1386.7,128,1413,160,1427,176L1440,192L1440,320L1426.7,320C1413.3,320,1387,320,1360,320C1333.3,320,1307,320,1280,320C1253.3,320,1227,320,1200,320C1173.3,320,1147,320,1120,320C1093.3,320,1067,320,1040,320C1013.3,320,987,320,960,320C933.3,320,907,320,880,320C853.3,320,827,320,800,320C773.3,320,747,320,720,320C693.3,320,667,320,640,320C613.3,320,587,320,560,320C533.3,320,507,320,480,320C453.3,320,427,320,400,320C373.3,320,347,320,320,320C293.3,320,267,320,240,320C213.3,320,187,320,160,320C133.3,320,107,320,80,320C53.3,320,27,320,13,320L0,320Z"></path></svg>
+        </div>
+        <div class="page" id="page9">
+            <div class="profile-card">
+                <div class="top">
+                    <div class="photo d-flex">
+                        <img src="https://zelt.app/wp-content/uploads/2023/02/zelt.wp2.cubdev.com-homepage-1.jpeg" alt="">
+                    </div>
+                    <div class="dets d-flex">
+                        <h1 class="name">Felix  Leuschner</h1>
+                        <h3>Founder of Drover</h3>
+                    </div>
+                </div>
+                <div class="bottom d-flex">
+                    <p>The burden on people operations has increased signicantly in the last few years. Zelt helps automate rather than just digitally pushing paper from one desk to another.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="top">
+                    <div class="photo d-flex">
+                        <img src="https://zelt.app/wp-content/uploads/2023/02/zelt.wp2.cubdev.com-homepage-2.jpeg" alt="">
+                    </div>
+                    <div class="dets d-flex">
+                        <h1 class="name">Chloe Gibbs</h1>
+                        <h3>Senior People Manager of Heroes</h3>
+                    </div>
+                </div>
+                <div class="bottom d-flex">
+                    <p>The tools we used before were unable to automate our processes across HR, payroll and IT functions. Now, we can finally connect our people ops stack.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="top">
+                    <div class="photo d-flex">
+                        <img src="https://zelt.app/wp-content/uploads/2023/01/zelt.wp2.cubdev.com-9.jpeg" alt="">
+                    </div>
+                    <div class="dets d-flex">
+                        <h1 class="name">Eamon Jubbawy</h1>
+                        <h3>Founder of onfido and sequence</h3>
+                    </div>
+                </div>
+                <div class="bottom d-flex">
+                    <p>After many years as a startup founder and using a lot of different tools, I am now building my new ventures on Zelt. It helps us stay lean and reduce distraction from administation.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="page" id="page10">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E4E0DD" fill-opacity="1" d="M0,0L17.1,42.7C34.3,85,69,171,103,218.7C137.1,267,171,277,206,277.3C240,277,274,267,309,224C342.9,181,377,107,411,96C445.7,85,480,139,514,138.7C548.6,139,583,85,617,85.3C651.4,85,686,139,720,181.3C754.3,224,789,256,823,245.3C857.1,235,891,181,926,138.7C960,96,994,64,1029,64C1062.9,64,1097,96,1131,122.7C1165.7,149,1200,171,1234,192C1268.6,213,1303,235,1337,245.3C1371.4,256,1406,256,1423,256L1440,256L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z"></path></svg>
+            <div class="footer">
+                <div class="f-left">
+                    <h1>The employee platform for growth</h1>
+                    <button>Try Zelt now</button>
+                </div>
+                <div class="f-right">
+                    <div class="small-box">
+                        <h2>PRODUCT</h2>
+                        <br>
+                        <a href="#"><h3>People</h3></a>
+                        <a href="#"><h3>Payroll</h3></a>
+                        <a href="#"><h3>Benefits</h3></a>
+                        <a href="#"><h3>Payments</h3></a>
+                        <a href="#"><h3>Time Off</h3></a>
+                        <a href="#"><h3>Apps</h3></a>
+                        <a href="#"><h3>Devices</h3></a>
+                    </div>
+                    <div class="small-box">
+                        <h2>RESOURCES</h2>
+                        <br>
+                        <a href="#"><h3>Pricing</h3></a>
+                        <a href="#"><h3>Knowledge center</h3></a>
+                        <a href="#"><h3>Case stuides</h3></a>
+                        <a href="#"><h3>About us</h3></a>
+                        <a href="#"><h3>Blog</h3></a>
+                    </div>
+                    <div class="small-box">
+                        <h2>LEGAL</h2>
+                        <br>
+                        <a href="#"><h3>Legal</h3></a>
+                        <a href="#"><h3>Security</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+    </div>
+    <!-- ========================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
